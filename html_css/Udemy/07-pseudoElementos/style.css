@@ -1,0 +1,37 @@
+ul li::before {
+    content: ' - ';
+    background: red;
+    color: #fff;
+    display: block;
+}
+
+/* 
+pseudoclase utilizamos ::
+pseudoelelementos utilizamos :
+ */
+
+ /* p::first-letter{
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+ }
+
+ p::first-line {
+    background: red;
+ }
+
+ p::selection {
+    background: black;
+    color: white;
+ } */
+
+::placeholder {
+    font-size: 10px;
+    color: red;
+ }
+
+.form-field::placeholder {
+    font-size: 10px;
+    color: red;
+ }

@@ -1,0 +1,28 @@
+/* 
+ID
+
+CASSES, ATRIBUTOS E PSEUDO-CLASSES
+
+ELEMENTOS E PSEUDO-ELEMENTOS
+*/
+
+body#b.bclass p#p.p::selection:hover{
+   background: yellowgreen;
+}
+
+#p {
+   background: red;
+}
+
+.p {
+   background: yellow;
+}
+
+#p.p {
+   background: yellow;
+}
+
+
+p#p.p {
+   background: red;
+}

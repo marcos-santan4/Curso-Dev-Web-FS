@@ -1,0 +1,20 @@
+ul li:nth-child(even) {
+    background-color: purple;
+}
+
+ul li:nth-child(odd) {
+    background-color: rebeccapurple;
+}
+
+/* 
+even - par 
+odd - impar
+*/
+
+ul li:nth-child(3n) {
+    background-color: chartreuse;
+}
+
+ul li:nth-child(3n + 5) {
+    background-color: brown;
+}
