@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    background: #fff;
+    border-radius: 45px;
+    top: 3.5vh;
+}
+
+.cabecalho {
+    position: sticky;
+    top: 0;
+    background: #343838;
+    height: 10vh;
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+    left: 10px;
+    text-align: center;
+}
+
+.cabecalho a {
+    color: #000;
+    margin-left: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+.cabecalho a:active {
+    color: azure;
+}
+
+.corpo {
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-left: 15vh;
+}
+
+#secao01 {
+    background: #4e4d4a;
+    color: #fff;
+}
+
+#secao02 {
+    background: #353431;
+}
+
+#secao03 {
+    background: #1b1b1a;
+}
+
+.img1 {
+    width: 100px;
+    height: 100px;
+    background: #660022;
+}
+
+.imagens-sec01 {
+    
+}

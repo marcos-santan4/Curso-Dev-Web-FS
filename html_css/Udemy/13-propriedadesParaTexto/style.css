@@ -1,0 +1,15 @@
+p {
+    font-size: 20px;
+    /* font-style: italic;
+    font-weight: bold; */
+    /* direction: ltr;
+    letter-spacing: 1px; /*espaçamento entre as letras 
+    word-spacing: 25px; /* espaçamento entre as palavras 
+    line-height: 25px; /* altura da linha 
+    text-align: left; */
+    /* text-decoration: underline line-through; */
+    /* text-decoration: line-through; corta as palavra */
+    text-indent: 50px;
+    text-shadow: 2px 2px 5px red;
+    text-transform: capitalize;
+}

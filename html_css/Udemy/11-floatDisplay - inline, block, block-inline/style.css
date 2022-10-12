@@ -4,9 +4,24 @@
 }
 
 .grid .col { 
-    width: 300px;
+    box-sizing: border-box;
+    width: 33.33%;
     height: 300px;
-    background: red;
-    margin: 20px;
     float: left;
+    padding: 15px;
+}
+
+.grid::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid .col-content {
+    width: 100%;
+    height: 100%;
+    /* background: #AB5412; */
+    /* background: rgba(0, 0, 0, 0.04); */
+    background: hsla(1251, 100%, 50%, 100%);
+
 }

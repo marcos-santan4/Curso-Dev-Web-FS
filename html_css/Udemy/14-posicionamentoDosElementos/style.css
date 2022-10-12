@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+}
+
+ul {
+    height: 100px;
+    overflow-y: auto;
+}
+
+ul li.sticky {
+position: sticky;
+background: gray;
+top: 0;
+}
+
+
+
+/* .pai {
+    height: 300vh;
+}
+
+.filha1, .filha2, .filha3 {
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 0, 0, 1);
+    position: static;
+    margin: 10px;
+}
+
+.filha2 {
+    position: fixed;
+    background: greenyellow;
+    top: 30%;
+    right: 0;
+    z-index: 1;
+}
+
+.filha1 {
+    /* TOP - EM RELACAO AO TOPO DA TELA*/
+    /* position: relative; */
+    /* position: absolute;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -150px;
+    z-index: 2; */
+    /* z-index - comando para trocar as camadas de um elemento - podese sobrepor elementos. */
+    /* width: 100%;
+    height: 100%;
+    margin: 0px; 
+}
+
+.filha3 {
+    background: blue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.outra {
+    position: absolute;
+    font-size: 50px;
+    background: #fff;
+    bottom: 0px;
+    right: 0px;
+}
+
+ */

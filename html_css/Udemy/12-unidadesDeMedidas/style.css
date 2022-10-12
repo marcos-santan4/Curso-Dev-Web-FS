@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.pai {
+    /* width: 30rem;
+    height: 30rem; */
+    /* width: 100vw;
+    height: 30rem; */
+    width: 50rem;
+    height: 100vh;
+    background: yellow;
+    overflow: hidden;
+    /* overflow: hidden;  // esconde o texto em uma area pequena*/
+}
+
+.pai > div{
+    width: 50%;
+    height: 50rem;
+    background: blue;
+}
+
+.color-one {
+    background: turquoise;
+}
+
+.color-two {
+    background: violet;
+}
+
+p {
+    /* font-size: 1.6rem; */
+    font-size: 2vmax;
+}
