@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: stretch;
+    background: yellow;
+    height: 640px;
+    width: 960px;
+    /*     
+    justify-content: center;
+    align-items: center;
+    
+    coloca itens no meio de um elemento/div*/
+}
+
+.flex-item {
+    color: white;
+    background: red;
+    width: 320px;
+}

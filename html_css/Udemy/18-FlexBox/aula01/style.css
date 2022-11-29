@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: yellow;
+    height: 500px;
+    /*     
+    justify-content: center;
+    align-items: center;
+    
+    coloca itens no meio de um elemento/div*/
+}
+
+.flex-item {
+    color: white;
+    background: red;
+    margin: 10px;
+}
+
+.flex-item:nth-child(3) {
+    font-size: 40px;
+}

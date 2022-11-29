@@ -34,6 +34,13 @@ body {
     width: 100%;
     height: 100%; 
     background: red;
+    box-shadow: inset 5px 5px 5px rgb(0, 0, 0),
+    5px 5px 5px rgba(0, 0, 0, .5),
+    inset -5px -5px 5px rgb(0, 0, 0);
+    /*
+    box-shadow: 5px 5px 5px;
+    box-shadow: inset 5px 5px 5px rgb(0, 0, 0);
+    inset é um comando que joga a sombra para dentro do elemento */
 }
 
 .menu {
@@ -64,7 +71,6 @@ body {
 
 .menu ul li a:hover {
     background: #333;
-    height: 100%;
 }
 
 .full-page {
